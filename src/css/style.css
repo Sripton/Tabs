@@ -55,6 +55,17 @@ body {
   justify-content: center;
   text-align: left;
 }
+#content1 {
+  background: linear-gradient(#6284ff, #ff0000);
+}
+#content2 {
+  background: linear-gradient(#ff3cac, #784ba0, #2b86c5);
+}
+#content3 {
+  background: linear-gradient(#ff2525, #ffe53b);
+}
 
-
+#content4 {
+  background: linear-gradient(#fbda61, #ff5acd);
+}
 
