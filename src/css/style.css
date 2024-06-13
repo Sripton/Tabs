@@ -19,12 +19,13 @@ body {
   background: black;
   background: linear-gradient(#8ec5fc, #e0c3fc);
 }
-.tab {
+.tab__items {
   background: #9face6;
   flex-basis: 21%;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
-.tab button {
+.tab__items button {
   width: 100%;
   background: transparent;
   border: 0;
@@ -35,37 +36,22 @@ body {
   text-transform: uppercase;
   cursor: pointer;
 }
-#tabs1 {
+.tab__item.active {
   background: linear-gradient(#8ec5fc, #e0c3fc);
   color: #000;
 }
-.content__box {
+.tab__content {
   background: #8ec5fc;
   flex-basis: 79%;
 }
 
-#content1,
-#content2,
-#content3,
-#content4 {
+.content {
   height: 100%;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: left;
-}
-#content1 {
-  background: linear-gradient(#6284ff, #ff0000);
-}
-#content2 {
-  background: linear-gradient(#ff3cac, #784ba0, #2b86c5);
-}
-#content3 {
-  background: linear-gradient(#ff2525, #ffe53b);
-}
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 
-#content4 {
-  background: linear-gradient(#fbda61, #ff5acd);
 }
 

@@ -8,27 +8,41 @@
   </head>
   <body>
     <div class="container">
-      <div class="tab">
-        <button id="tabs1">First tab</button>
-        <button id="tabs2">Second tab</button>
-        <button id="tabs3">Third tab</button>
-        <button id="tabs4">Fourth tab</button>
+      
+      <div class="tab__items">
+        <button class="tab__item active">First tab</button>
+        <button class="tab__item">Second tab</button>
+        <button class="tab__item">Third tab</button>
+        <button class="tab__item">Fourth tab</button>
       </div>
 
-      <div class="content__box">
-        <div id="content1">
+      <div class="tab__content">
+        <div
+          class="content"
+          style="background: linear-gradient(#6284ff, #ff0000)"
+        >
           <h1>First tab</h1>
         </div>
-        <div id="content2">
+        <div
+          class="content"
+          style="background: linear-gradient(#ff3cac, #784ba0, #2b86c5)"
+        >
           <h1>Second tab</h1>
         </div>
-        <div id="content3">
+        <div
+          class="content"
+          style="background: linear-gradient(#ff2525, #ffe53b)"
+        >
           <h1>Third tab</h1>
         </div>
-        <div id="content4">
+        <div
+          class="content"
+          style="background: linear-gradient(#fbda61, #ff5acd)"
+        >
           <h1>Fourth tab</h1>
         </div>
       </div>
     </div>
+    <script src="./src/js/script.js"></script>
   </body>
 </html>
